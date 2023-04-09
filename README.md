@@ -1,11 +1,11 @@
-About r-prt
-===========
+About r-prt-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nbenn/prt/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prt-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tabular Data Backed by Partitioned 'fst' Files
 
