@@ -1,5 +1,5 @@
 {% set name = "r-prt" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/prt_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/prt/prt_{{ version }}.tar.gz
-  sha256: c4d34fb4820f3614bea81e55565e8f578ee3a6870d6404aa3b0a4416932ac709
+  sha256: 24b9c239887517150b07c23323d54dfb547e572ab1661687c62c3b9f9a65333c
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
